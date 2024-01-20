@@ -1,0 +1,5 @@
+‹args array:› ‹1   1› ‹2   2› ‹3   3› n=4
+‹› n=0
+‹shell› ‹test› n=2
+‹› n=0
+‹› n=0

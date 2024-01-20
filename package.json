@@ -1,5 +1,5 @@
 { "name": "childprocess-spawn-detached",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A slightly more concise API for `child_process.spawn()`.",
   "keywords": [
     "child process",
@@ -19,7 +19,7 @@
   },
   "contributors": [],
 
-  "private": true, "license": "ISC",
+  "private": false, "license": "ISC",
 
   "main": "index.js",
   "scripts": { "test": "elp && bash test/all.sh" },

@@ -19,6 +19,11 @@ This module exports one function:
 
 Basically the same interface as `child_process.spawn()`, except:
 
+* When `prog` is false-y, do nothing and just return `false`.
+  * This is meant to save you an if statement and repetition of the
+    config lookup code when your program's config has an optional
+    setting for a notification command.
+    Example: `spawn(process.env.coolserver_notify_listening);`
 * `opt.detached` is `true` by default.
 * When `opt.detached`, a missing or false-y `opt.stdio` means `'ignore'`.
 * When `args` is false-y, `opt.shell` defaults to `true`.
