@@ -1,0 +1,39 @@
+{ "name": "childprocess-spawn-detached",
+  "version": "0.0.0",
+  "description": "A slightly more concise API for `child_process.spawn()`.",
+  "keywords": [
+    "child process",
+    "child_process",
+    "concise",
+    "spawn"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/childprocess-spawn-detached-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/childprocess-spawn-detached-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/childprocess-spawn-detached-js/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "main": "index.js",
+  "scripts": { "test": "elp && bash test/all.sh" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
